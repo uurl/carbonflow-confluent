@@ -14,6 +14,21 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-# Connectors
+# Business Impact
 
-This directory contains example connector configurations for CarbonFlow.
+CarbonFlow addresses a real operational problem: workloads are often scheduled without considering real-time carbon intensity or compute efficiency.
+
+## Benefits
+
+- lower cloud infrastructure cost
+- reduced energy waste
+- lower carbon footprint
+- better workload placement decisions
+- real-time operational optimization
+
+## Target Users
+
+- data engineering teams
+- platform engineering teams
+- MLOps teams
+- organizations with multi-region workloads

@@ -14,6 +14,21 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-# Connectors
+# Flink Logic
 
-This directory contains example connector configurations for CarbonFlow.
+CarbonFlow uses Apache Flink to join workload changes with real-time carbon intensity data.
+
+## Core logic
+
+- Read workload changes from `workload-events`
+- Read carbon signals from `carbon-intensity-events`
+- Join by region
+- Compute whether the job should:
+    - run now
+    - be delayed
+    - move to another region
+    - reduce compute allocation
+
+## Output
+
+Write optimization recommendations to `optimization-signals`

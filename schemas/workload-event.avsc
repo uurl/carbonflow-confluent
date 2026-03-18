@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "WorkloadEvent",
+  "namespace": "io.carbonflow",
+  "fields": [
+    { "name": "job_id", "type": "string" },
+    { "name": "job_type", "type": "string" },
+    { "name": "region", "type": "string" },
+    { "name": "priority", "type": "string" },
+    { "name": "cpu_request", "type": "double" },
+    { "name": "movable", "type": "boolean" },
+    { "name": "scheduled_at", "type": "long" },
+    { "name": "timestamp", "type": "long" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "CarbonIntensityEvent",
+  "namespace": "io.carbonflow",
+  "fields": [
+    { "name": "region", "type": "string" },
+    { "name": "carbon_intensity", "type": "double" },
+    { "name": "unit", "type": "string" },
+    { "name": "timestamp", "type": "long" }
+  ]
+}

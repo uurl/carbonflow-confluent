@@ -1,0 +1,7 @@
+{
+  "name": "carbonflow-postgres-cdc-source",
+  "connector.class": "PostgresCdcSource",
+  "topic.prefix": "carbonflow",
+  "input.data.format": "JSON_SR",
+  "after.state.only": "true"
+}

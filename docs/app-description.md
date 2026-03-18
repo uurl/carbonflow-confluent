@@ -14,6 +14,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-# Connectors
+# App Description
 
-This directory contains example connector configurations for CarbonFlow.
+CarbonFlow is a real-time carbon-aware scheduler advisor for data pipelines.
+
+It captures workload changes from PostgreSQL using CDC, enriches them with real-time carbon intensity signals, and processes both streams using Apache Flink.
+
+The application generates optimization recommendations to reduce cloud cost and carbon footprint, such as delaying execution, moving jobs to lower-carbon regions, or reducing compute allocation.

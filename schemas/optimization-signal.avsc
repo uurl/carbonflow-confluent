@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "OptimizationSignal",
+  "namespace": "io.carbonflow",
+  "fields": [
+    { "name": "job_id", "type": "string" },
+    { "name": "current_region", "type": "string" },
+    { "name": "recommended_action", "type": "string" },
+    { "name": "target_region", "type": "string" },
+    { "name": "estimated_cost_savings_pct", "type": "double" },
+    { "name": "estimated_carbon_reduction_pct", "type": "double" },
+    { "name": "reason", "type": "string" },
+    { "name": "timestamp", "type": "long" }
+  ]
+}

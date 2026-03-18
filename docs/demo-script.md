@@ -14,6 +14,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-# Connectors
+# Demo Script
 
-This directory contains example connector configurations for CarbonFlow.
+1. Create or update a workload in PostgreSQL
+2. Capture the change through the Postgres CDC Source Connector
+3. Ingest carbon intensity data as a second stream
+4. Use Flink to join both streams
+5. Emit an optimization recommendation
+6. Show the output topic and stream lineage

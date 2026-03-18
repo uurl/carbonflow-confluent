@@ -1,0 +1,6 @@
+{
+  "name": "carbonflow-carbon-api-source",
+  "connector.class": "HttpSource",
+  "kafka.topic": "carbon-intensity-events",
+  "input.data.format": "JSON_SR"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "carbonflow-postgres-sink",
+  "connector.class": "PostgresSink",
+  "topics": "optimization-signals",
+  "input.data.format": "JSON_SR",
+  "insert.mode": "UPSERT",
+  "auto.create": "true"
+}
